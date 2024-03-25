@@ -1,0 +1,22 @@
+
+.copyright{
+    width: 75%;
+    font-size: 14px;
+    color: #717275;
+    font-weight: 300;
+}
+@media (max-width:992px ) {
+    .copyright{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.copyright a{
+    color: #D6A354;
+    transition: 0.3s;
+}
+
+.copyright a:hover{
+    color: #C12828;
+}

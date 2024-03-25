@@ -1,0 +1,85 @@
+.hero{
+    height: calc(100vh + 15px);
+    background-image: url("../../assets/client-doing-hair-cut-barber-shop-salon.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    border-bottom: 15px solid #d6a354;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+@media (max-width:768px) {
+    .hero{
+        justify-content: center;
+    }
+}
+.hero::after{
+    content: '';
+    position: absolute;
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.65;
+    z-index: -1;
+}
+
+.hero .hero-content{
+    z-index: 999 ;
+    width: 100%;
+}
+
+.hero .hero-content h1{
+    font-size: 74px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+@media (max-width:1200px ) {
+    .hero .hero-content h1{
+        font-size: 62px;
+    }
+    .hero .hero-content h1 br{
+        display: none;
+    }
+}
+@media (max-width:992px ) {
+    .hero .hero-content h1{
+        font-size: 54px;
+    }
+}
+
+.hero .hero-desc{
+    font-size: 20px;
+    margin-bottom: 32px;
+    font-weight: 300;
+}
+
+.hero .hero-content .hero-btns a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+@media (max-width:768px) {
+    .hero .hero-content .hero-btns a{
+        font-size: 14px;
+    }
+}
+.hero .hero-content .hero-btns a:first-child{
+    border: #fff solid 2px;
+    margin-right: 16px;
+}
+.hero .hero-content .hero-btns a:last-child{
+    background: #c12828;
+    border: #c12828 solid 2px;
+}
+.hero .hero-content .hero-btns a:hover{
+    background:#FDBB2D;
+    border-color: #FDBB2D;
+}

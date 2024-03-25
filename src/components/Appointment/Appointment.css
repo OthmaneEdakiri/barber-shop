@@ -1,0 +1,50 @@
+
+.appointment{
+    height: 360px;
+    width: 360px;
+    border-radius: 50%;
+    border: solid #d6a354 10px;
+    padding: 50px 90px 50px 50px;
+    position: absolute;
+    bottom: -60px;
+    right: -60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width:992px) {
+    .appointment{
+        display: none;
+    }
+}
+.appointment h4{
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.appointment a{
+    padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: 0.3s;
+    background: #d6a354;
+    transition: 0.3s;
+}
+.appointment a:hover{
+    background: #c12828;
+}
+
+.appointment img{
+    height: 120px;
+    width: 120px;
+    border: 10px solid #d6a354;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    right: 135px;
+    object-fit: cover;
+}

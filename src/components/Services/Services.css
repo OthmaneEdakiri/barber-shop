@@ -1,0 +1,21 @@
+.services .title{
+    margin-bottom: 48px;
+}
+
+@media (max-width:992px ) {
+    .services .title{
+        margin-bottom: 36px;
+    }
+}
+
+@media (max-width:480px ) {
+    .services .title{
+        margin-bottom: 28px;
+    }
+}
+
+.services .services-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 24px;
+}

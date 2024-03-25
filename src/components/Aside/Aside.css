@@ -1,0 +1,27 @@
+.aside{
+    background: #d6a354;
+    width: 25%;
+    position: fixed;
+    
+    z-index: 10;
+}
+
+.aside.asideNoActive{
+    display: none;
+}
+.aside.asideActive{
+    display: block;
+}
+
+@media (max-width:992px) {
+    .aside{
+        width: 33%;
+    }
+}
+
+@media (max-width:768px) {
+    .aside{
+        width: 100%;
+        display: none;
+    }
+}

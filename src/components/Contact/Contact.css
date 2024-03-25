@@ -1,0 +1,27 @@
+.contact .title{
+    margin-bottom: 48px;
+}
+
+@media (max-width:768px ) {
+    .contact .title{
+        margin-bottom: 36px;
+    }
+}
+
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.map{
+    width: 100%;
+    min-height: 350px;
+    margin-top: 48px;
+    padding-top: 48px;
+   
+}
+
+.map iframe{
+    filter: hue-rotate(45deg);
+    border-radius: 20px;
+}

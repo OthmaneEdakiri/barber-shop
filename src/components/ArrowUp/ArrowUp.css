@@ -1,0 +1,35 @@
+
+.arrow-up{
+    width: 15%;
+}
+
+@media (max-width:992px ) {
+    .arrow-up{
+        width: 100%;
+    }
+}
+
+.arrow-up a{
+    display: inline-block;
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: #D6A354 solid 3px;
+    color: #D6A354;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+@media (max-width:992px ) {
+    .arrow-up a{
+        margin-left: auto;
+    }
+}
+
+.arrow-up a:hover{
+    color: #C12828;
+    border-color: #C12828;
+}

@@ -1,0 +1,22 @@
+.bar{
+    font-size: 25px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    background: #d6a354;
+    border-radius: 50%;
+    z-index: 999 !important;
+    display: none;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .bar{
+        display: block;
+    }
+}

@@ -1,0 +1,55 @@
+.featured{
+    background: url('../../assets/barber-customer-giving-high-five.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+}
+
+.featured::before{
+    content: '';
+    position: absolute;
+    background: #000000;
+    opacity: 0.45;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+.featured .featured-content{
+    position: relative;
+}
+
+.featured .featured-content h2{
+    margin-bottom: 16px;
+    font-size: 46px;
+    color: #C12828;
+}
+@media (max-width:992px ) {
+    .featured .featured-content h2{
+        font-size: 36px;
+    }
+}
+@media (max-width:768px ) {
+    .featured .featured-content h2{
+        font-size: 28px;
+    }
+}
+
+
+.featured .featured-content p{
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.featured .featured-content strong{
+    padding: 10px 20px;
+    background: #D6A354;
+    color: #212529;
+    border-radius: 20px;
+}

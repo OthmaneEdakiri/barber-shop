@@ -1,0 +1,42 @@
+.booking{
+    background: url('../../assets/vintage-chair-barbershop.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.booking .booking-content{
+    background: #fff;
+    padding: 65px;
+    border-radius: 20px;
+    width: 83%;
+}
+
+.booking .booking-content .title{
+    margin-bottom: 5px;
+}
+
+@media (max-width : 992px) {
+    .booking .booking-content{
+        padding: 45px;
+        width: 100%;
+    }
+}
+
+@media (max-width : 768px){
+    .booking .booking-content{
+        padding: 45px;
+        max-width: 516px;
+    }
+}
+
+.booking .booking-content p{
+    color: #717275;
+    font-size: 20px;
+    margin-bottom: 48px;
+    font-weight: 300;
+}

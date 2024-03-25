@@ -1,0 +1,25 @@
+.about{
+    margin-bottom: 20px;
+}
+
+.about .title{
+    margin-bottom: 24px;
+}
+
+
+.about h6{
+    color: #c12828;
+    margin-bottom: 48px;
+    font-size: 22px;
+}
+
+.about .barbers{
+    display: flex;
+    gap: 40px;
+}
+
+@media (max-width:992px) {
+    .about .barbers{
+        flex-direction: column;
+    }
+}
